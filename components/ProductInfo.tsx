@@ -45,18 +45,6 @@ export default function ProductInfo({
       </div>
 
       <div className="mt-6">
-        <h3 className="text-sm font-medium text-gray-900">Color</h3>
-        <div className="mt-2 flex space-x-2">
-          {['bg-black', 'bg-white', 'bg-rose-400'].map((color) => (
-            <button
-              key={color}
-              className={`${color} h-8 w-8 rounded-full border border-gray-300 ring-2 ring-transparent hover:ring-indigo-500 focus:outline-none`}
-            />
-          ))}
-        </div>
-      </div>
-
-      <div className="mt-6">
         <div className="flex items-center justify-between">
           <h3 className="text-sm font-medium text-gray-900">Description</h3>
         </div>

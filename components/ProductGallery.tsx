@@ -8,7 +8,7 @@ interface ProductGalleryProps {
 export default function ProductGallery({ mainImage }: ProductGalleryProps) {
   return (
     <div className="flex flex-col">
-      <div className="relative aspect-square w-full overflow-hidden rounded-lg">
+      <div className="w-full overflow-hidden rounded-lg">
         <img
           src={mainImage}
           alt="Premium Wireless Headphones"
