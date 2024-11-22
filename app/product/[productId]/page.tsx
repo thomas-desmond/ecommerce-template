@@ -1,6 +1,8 @@
 import ProductGallery from "@/components/ProductGallery";
 import ProductInfo from "@/components/ProductInfo";
 
+export const runtime = 'edge';
+
 export default async function Page({
   params,
 }: {
