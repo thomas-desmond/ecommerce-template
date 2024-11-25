@@ -1,5 +1,5 @@
-import ProductGallery from "@/components/ProductGallery";
-import ProductInfo from "@/components/ProductInfo";
+import ProductGallery from "@/app/product/[productId]/ProductGallery";
+import ProductInfo from "@/app/product/[productId]/ProductInfo";
 
 export const runtime = 'edge';
 

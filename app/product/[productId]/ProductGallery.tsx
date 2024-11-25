@@ -9,10 +9,12 @@ export default function ProductGallery({ mainImage }: ProductGalleryProps) {
   return (
     <div className="flex flex-col">
       <div className="w-full overflow-hidden rounded-lg">
-        <img
+        <Image
           src={mainImage}
           alt="Premium Wireless Headphones"
           className="object-cover object-center"
+          height={592}
+          width={592}
         />
       </div>
       {/* <div className="mt-4 grid grid-cols-4 gap-4">

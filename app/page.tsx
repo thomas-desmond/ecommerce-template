@@ -1,6 +1,6 @@
 import React from "react";
 import { Search, ShoppingBag, User } from "lucide-react";
-import ProductCard from "@/components/ProductCard";
+import ProductCard from "@/app/ProductCard";
 import Image from "next/image";
 
 const products = [
